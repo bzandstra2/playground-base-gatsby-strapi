@@ -16,7 +16,7 @@ export default function Spaces() {
             alt="Granite countertop logo divider"
             placeholder="blurred"
             layout="fixed"
-            width={200}
+            width={201}
             height={200}
         />
        </div>
