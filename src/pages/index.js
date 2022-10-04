@@ -4,6 +4,11 @@ import SiteConfig from '../config/site'
 import Layout from "../components/layout"
 import Seo from "../components/seo/seo"
 import Hero from "../components/hero/hero"
+import Video from "../components/video/video"
+import Visualizer from "../components/visualizer/visualizer"
+import Diamond from "../components/diamond/diamond-divider"
+import Cards from "../components/cards/cards"
+import Whychooseus from "../components/headings/whychooseus"
 
 
 const {title, description} = SiteConfig
@@ -18,6 +23,13 @@ const IndexPage = () => (
     <h2>{SiteConfig.company}</h2>
 
     <Hero />
+    <Video />
+    <Visualizer />
+    <Diamond />
+    <Whychooseus />
+    <Cards />
+    
+
 
      {/* <pre>
       { JSON.stringify(SiteConfig, null, 2) }

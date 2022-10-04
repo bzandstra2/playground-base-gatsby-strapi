@@ -10,10 +10,20 @@ const metaData = {
   defaultAuthor: company.name
 }
 
+const products = {
+  countertops: [
+    'Granite, Quartz, Marble'
+  ],
+  cabinets: 'cabinets',
+  tile: 'tile',
+  sealer: 'sealer', 
+}
+
 module.exports = {
   company: company.name,
   title: metaData.defaultTitle,
   description: metaData.defaultDescription,
   author: metaData.defaultAuthor,
-  siteUrl: company.siteUrl
+  siteUrl: company.siteUrl,
+  products: products,
 }
