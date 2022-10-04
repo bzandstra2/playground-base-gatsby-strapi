@@ -6,9 +6,12 @@ import Seo from "../components/seo/seo"
 import Hero from "../components/hero/hero"
 import Video from "../components/video/video"
 import Visualizer from "../components/visualizer/visualizer"
-import Diamond from "../components/diamond/diamond-divider"
+import Diamond from "../components/dividers/diamondDivider"
 import Cards from "../components/cards/cards"
-import Whychooseus from "../components/headings/whychooseus"
+import Whychooseusheading from "../components/headings/whychooseusHeading"
+import Ourprocessheading from "../components/headings/ourProcessHeading"
+import Freeestimate from "../components/cta/freeEstimate"
+
 
 
 const {title, description} = SiteConfig
@@ -26,8 +29,12 @@ const IndexPage = () => (
     <Video />
     <Visualizer />
     <Diamond />
-    <Whychooseus />
+    <Whychooseusheading />
     <Cards />
+    <Ourprocessheading />
+    <Freeestimate />
+
+    
     
 
 

@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Countertops', href: '/countertops' },
   { name: 'Cabinets', href: '#' },
   { name: 'Tile', href: '#' },
+  { name: 'Contact Us', href: '/contact' },
 
 ]
 
