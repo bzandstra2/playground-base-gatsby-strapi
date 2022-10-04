@@ -9,8 +9,8 @@ import Visualizer from "../components/visualizer/visualizer"
 import Diamond from "../components/dividers/diamondDivider"
 import Cards from "../components/cards/cards"
 import Whychooseusheading from "../components/headings/whychooseusHeading"
-import Ourprocessheading from "../components/headings/ourProcessHeading"
 import Freeestimate from "../components/cta/freeEstimate"
+import Ourprocess from "../components/OurProcess/ourProcess"
 
 
 
@@ -31,8 +31,9 @@ const IndexPage = () => (
     <Diamond />
     <Whychooseusheading />
     <Cards />
-    <Ourprocessheading />
+    <Ourprocess />
     <Freeestimate />
+  
 
     
     

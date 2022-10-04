@@ -9,7 +9,7 @@ export default function freeEstimate() {
           <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
             <div className="lg:self-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                <span className="block mb-5">Ready to Build Your Dream Kitchen?</span>
+                <span className="block mb-5">Ready to Design Your Dream Kitchen?</span>
                 <span className="block">Get a Free Estimate Today.</span>
               </h2>
               <a

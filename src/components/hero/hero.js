@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     
     <main className="lg:relative">
-    <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:py-48 lg:text-left">
+    <div className="mx-auto w-full max-w-7xl pt-4 pb-4 text-center lg:py-48 lg:text-left">
       <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl">
           <span className="block xl:inline">Top Rated Manufacturer &#38; Installer of</span>{' '}
