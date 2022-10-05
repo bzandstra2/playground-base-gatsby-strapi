@@ -11,6 +11,7 @@ import Cards from "../components/cards/cards"
 import Whychooseusheading from "../components/headings/whychooseusHeading"
 import Freeestimate from "../components/cta/freeEstimate"
 import Ourprocess from "../components/OurProcess/ourProcess"
+import Homefaq from "../components/faq/homeFaq"
 
 
 
@@ -31,8 +32,11 @@ const IndexPage = () => (
     <Diamond />
     <Whychooseusheading />
     <Cards />
+    <Diamond />
     <Ourprocess />
+    <Diamond />
     <Freeestimate />
+    <Homefaq />
   
 
     

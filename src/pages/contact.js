@@ -13,12 +13,7 @@ const offices = [
     { id: 4, city: 'London', address: ['114 Cobble Lane', 'London N1 2EF'] },
   ]
 
-  const navigation = [
-    { name: 'Changelog', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Partners', href: '#' },
-    { name: 'News', href: '#' },
-  ]
+ 
 
 export default function Contact() {
   return (

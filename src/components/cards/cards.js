@@ -16,7 +16,7 @@ export default function Cards() {
 return (
     
     
-    <div className="mx-auto w-auto flex flex-col flex-wrap md:flex-row shrink justify-between align-center">
+    <div className="mx-auto w-auto flex flex-col flex-wrap md:flex-row shrink justify-between align-center mb-20 p-20">
     <div className=" rounded overflow-hidden shadow-md shadow-primary-600 p-4 md:max-w-xs mt-10">
      <FaClock className="m-auto w-auto pt-8 fill-primary-600"size="100" />
     <div className="px-6 py-4 mt-8">

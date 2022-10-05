@@ -63,21 +63,25 @@ export default function Testcta() {
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
-                porttitor vitae ut. Amet vitae fames senectus vitae.
+              East Coast Granite is the proven expert in kitchen and bath remodeling. <b>Kitchen remodeling</b> is
+one of the most important home improvement projects you will ever do. Our expert team
+will help guide you through your kitchen remodel and the many design decisions you will
+need to make to create a space that will add functionality and personal style to your
+home. Upgrading your kitchen with our wide selection of <b>quality granite, quartz, or
+marble countertops</b> will definitely add lasting value to your home. We also offer
+cabinets, flooring and tile to complete your entire project.
               </p>
               <p className="text-base leading-7">
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique
-                eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu
-                viverra donec ut volutpat donec laoreet quam urna.
+              The key to creating a <b>kitchen remodel</b> that will stand the test of time is to combine the
+best of both traditional and contemporary style. We can help you design a kitchen full of
+beauty and function, while making sure all your needs are met. We offer free estimates
+and design consultations to help you begin your <b>kitchen transformation</b>.
               </p>
               <p className="text-base leading-7">
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-              </p>
+              Our remodeling team is there to guarantee the process goes as smoothly as possible,
+from design to installation. We are family owned and operated and have multiple
+locations across the area for your convenience. Choose our experienced team that has
+been <b>creating dream kitchens and baths for over 15 years!</b> </p>
             </div>
           </div>
 

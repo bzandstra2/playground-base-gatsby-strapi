@@ -1,9 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import { GatsbyImage } from "gatsby-plugin-image"
 import Countertopheader from '../../components/pageHeaders/countertopHeader'
-
-
+import Granitecountertops from '../../components/content/graniteCountertops'
+import Marblecountertops from '../../components/content/marbleCountertops'
+import Quartzcountertops from '../../components/content/quartzCountertops'
 import Layout from '../../components/layout'
 
 export default function Countertops({data}) {
@@ -12,6 +14,9 @@ export default function Countertops({data}) {
     <Layout>
       <h1>Countertops</h1>
       <Countertopheader />
+      <Granitecountertops />
+      <Marblecountertops />
+      <Quartzcountertops />
 
       <ul>
       {nodes.map((node) =>

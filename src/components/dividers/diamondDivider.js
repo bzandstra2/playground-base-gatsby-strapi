@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 export default function products() {
   return (
-    <div className="relative">
+    <div className="relative mt-10">
     <div className="absolute inset-0 flex items-center" aria-hidden="true">
     </div>
     <div className="relative flex justify-center">

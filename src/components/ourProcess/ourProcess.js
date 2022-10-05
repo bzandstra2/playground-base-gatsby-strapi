@@ -7,7 +7,7 @@ export default function ourProcess() {
   return (
     
 
-    <div className="pt-10"><Ourprocessheading />
+    <div className="p-20"><Ourprocessheading />
     
         <div className="flex flex-col flex-wrap md:flex-row justify-between align-center">
             <div className="max-w-lg m-auto w-auto p-8">
