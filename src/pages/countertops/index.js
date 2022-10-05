@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
 import { GatsbyImage } from "gatsby-plugin-image"
 import Countertopheader from '../../components/pageHeaders/countertopHeader'
 import Granitecountertops from '../../components/content/graniteCountertops'
