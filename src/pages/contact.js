@@ -5,6 +5,12 @@ import { FaPhone } from '@react-icons/all-files/fa/FaPhone'
 import { GoMail } from '@react-icons/all-files/go/GoMail'
 import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram'
 import { StaticImage } from 'gatsby-plugin-image'
+import { graphql } from 'gatsby'
+import siteConfig from '../config/site'
+
+const {company} = siteConfig
+
+
 
 const offices = [
     { id: 1, city: 'Los Angeles', address: ['4556 Brendan Ferry', 'Los Angeles, CA 90210'] },
@@ -15,7 +21,9 @@ const offices = [
 
  
 
-export default function Contact() {
+ 
+
+export default function Contact({data}) {
   return (
 
     <Layout>
@@ -28,6 +36,9 @@ export default function Contact() {
               <h1 className="text-4xl font-bold tracking-tight text-warm-gray-900 sm:text-5xl lg:text-6xl">
                 Get a Free Estimate Today
               </h1>
+              <pre>
+      { JSON.stringify(data, null, 2) }
+      </pre>
               <p className="mt-6 max-w-3xl text-xl text-warm-gray-500 text-center">
                 Send us a message, and one of our design experts will get back to you within 24 hours
               </p>
@@ -166,7 +177,7 @@ export default function Contact() {
                     </dt>
                     <dd className="flex text-base text-teal-50">
                       <FaPhone className="h-6 w-6 flex-shrink-0 text-white" aria-hidden="true" />
-                      <span className="ml-3">+1 (555) 123-4567</span>
+                      <span className="ml-3"> {data.strapiCompany.locations.callrail_number}</span>
                     </dd>
                     <dt>
                       <span className="sr-only">Email</span>
@@ -349,3 +360,32 @@ export default function Contact() {
     </Layout>
   )
 }
+
+export const query = graphql`
+query{
+strapiCompany(name: {eq: "East Coast Granite & Tile"}) {
+  locations {
+    callrail_number
+    city
+    state
+    street_address
+    zip
+    name
+  }
+}  
+}
+`
+
+// export const query = graphql`
+//   query ($company: String) {
+//     strapiCompany(name: {eq: $company}) { 
+//       locations {
+//         callrail_number
+//         city
+//         state
+//         street_address
+//         zip
+//         name
+//       }
+//     }
+//   }`

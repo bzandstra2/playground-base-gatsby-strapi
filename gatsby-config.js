@@ -22,6 +22,7 @@ module.exports = {
       options: {
         rule: {
           include:  /images/
+          
         }
       }
     },
@@ -48,6 +49,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

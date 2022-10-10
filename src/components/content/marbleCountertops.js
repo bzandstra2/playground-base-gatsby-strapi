@@ -43,9 +43,8 @@ export default function Marblecountertops() {
                 <StaticImage
                   className="rounded-lg object-cover object-center shadow-lg"
                   src="../../images/marble-countertop-1.jpg"
-                  alt="Whitney leaning against a railing on a downtown street"
-                  width={600}
-                  height={600}
+                  alt="smooth marble countertops"
+                 
                 />
               </div>
             </figure>

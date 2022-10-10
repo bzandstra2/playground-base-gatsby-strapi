@@ -1,3 +1,4 @@
+
 const company = {
   name: "East Coast Granite & Tile",
   siteUrl: "https://eastcoast-granite.com",
@@ -21,6 +22,7 @@ const products = {
 
 module.exports = {
   company: company.name,
+  region: company.region,
   title: metaData.defaultTitle,
   description: metaData.defaultDescription,
   author: metaData.defaultAuthor,

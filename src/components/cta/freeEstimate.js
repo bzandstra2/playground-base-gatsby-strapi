@@ -13,7 +13,7 @@ export default function freeEstimate() {
                 <span className="block">Get a Free Estimate Today.</span>
               </h2>
               <a
-                href="#"
+                href="../contact"
                 className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-primary-800 shadow hover:bg-primary-50"
               >
                 Get a Free Estimate

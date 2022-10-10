@@ -8,8 +8,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
+import { useLocation } from "@reach/router"
 
 function Seo({ description, title, children }) {
+  const { pathname } = useLocation ()
   const { site } = useStaticQuery(
     graphql`
       query {

@@ -76,7 +76,7 @@ export default function Visualizer() {
               </p>
               <a
                 className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-primary-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
-                href="#"
+                href="https://east_coast_granite_marble.quotekitchenandbath.com/kitchen#/visualizer"
               >
                 Design My Dream Kitchen
               </a>

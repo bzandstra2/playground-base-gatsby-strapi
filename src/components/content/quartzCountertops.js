@@ -44,8 +44,7 @@ export default function Quartzcountertops() {
                   className="rounded-lg object-cover object-center shadow-lg"
                   src="../../images/arctic-ivory-quartz-kitchen-island.jpg"
                   alt="kitchen with quartz countertop"
-                  width={600}
-                  height={600}
+    
                 />
               </div>
             </figure>

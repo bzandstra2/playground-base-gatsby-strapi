@@ -43,8 +43,7 @@ export default function graniteCountertops() {
                   className="rounded-lg object-cover object-center shadow-lg"
                   src="../../images/granite-1.jpg"
                   alt="granite kitchen countertop"
-                  width={600}
-                  height={600}
+                  
                 />
               </div>
             </figure>

@@ -10,8 +10,9 @@ import Diamond from "../components/dividers/diamondDivider"
 import Cards from "../components/cards/cards"
 import Whychooseusheading from "../components/headings/whychooseusHeading"
 import Freeestimate from "../components/cta/freeEstimate"
-import Ourprocess from "../components/OurProcess/ourProcess"
 import Homefaq from "../components/faq/homeFaq"
+import Process from "../components/ourProcess/process"
+import Productpagetemplate from "../templates/productPageTemplate"
 
 
 
@@ -33,10 +34,11 @@ const IndexPage = () => (
     <Whychooseusheading />
     <Cards />
     <Diamond />
-    <Ourprocess />
+    <Process />
     <Diamond />
     <Freeestimate />
     <Homefaq />
+    <Productpagetemplate />
   
 
     

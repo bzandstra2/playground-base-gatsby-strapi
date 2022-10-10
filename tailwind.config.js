@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
-      primary: colors.blue,
+      primary: colors.blue
+    ,
       accent: colors.red,
       base: colors.slate,
     },

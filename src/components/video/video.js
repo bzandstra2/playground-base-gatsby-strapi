@@ -1,7 +1,10 @@
 import React from 'react'
+import SiteConfig from '../../config/site'
 
 export default function Testcta() {
    
+  const {title, description} = SiteConfig
+  
   const stats = [
     { label: 'Founded', value: '2007' },
     { label: 'Projects Completed', value: '25,000+' },
@@ -11,11 +14,11 @@ export default function Testcta() {
 
   return (
     
-    <div className="relative bg-white sm:pb-40">
+
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         <div className="relative sm:py-16 lg:py-0">
           <div aria-hidden="true" className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
-            <div className="absolute inset-y-0 right-1/2 w-full rounded-r-3xl bg-gray-50 lg:right-72" />
+            <div className="absolute inset-y-0 right-1/2 rounded-r-3xl bg-gray-50 lg:right-72" />
             <svg
               className="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12"
               width={404}
@@ -38,19 +41,11 @@ export default function Testcta() {
               <rect width={404} height={392} fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
             </svg>
           </div>
-          <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+          <div className="relative">
             {/* Testimonial card*/}
-            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-            <iframe className="border-4 border-primary-600 rounded-lg bg-primary-600" width="400" height="500" src="https://player.vimeo.com/video/641603031?h=2bada3f1d7&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="East Coast Granite & Tile Intro Movie">
+            <div className="relative rounded-2xl pb-10 shadow-xl shadow-primary-300">
+            <iframe className="rounded-lg" width="500" height="500" src="https://player.vimeo.com/video/641603031?h=2bada3f1d7&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="East Coast Granite & Tile Intro Movie">
                </iframe>
-             
-        
-              <div className="relative px-8">
-                <div>
-                  
-                </div>
-                
-              </div>
             </div>
           </div>
         </div>
@@ -63,13 +58,12 @@ export default function Testcta() {
             </h2>
             <div className="mt-6 space-y-6 text-gray-500">
               <p className="text-lg">
-              East Coast Granite is the proven expert in kitchen and bath remodeling. <b>Kitchen remodeling</b> is
+              {SiteConfig.company} is the proven expert in kitchen and bath remodeling. <b>Kitchen remodeling</b> is
 one of the most important home improvement projects you will ever do. Our expert team
 will help guide you through your kitchen remodel and the many design decisions you will
 need to make to create a space that will add functionality and personal style to your
 home. Upgrading your kitchen with our wide selection of <b>quality granite, quartz, or
-marble countertops</b> will definitely add lasting value to your home. We also offer
-cabinets, flooring and tile to complete your entire project.
+marble countertops</b> will definitely add lasting value to your home. 
               </p>
               <p className="text-base leading-7">
               The key to creating a <b>kitchen remodel</b> that will stand the test of time is to combine the
@@ -96,7 +90,7 @@ been <b>creating dream kitchens and baths for over 15 years!</b> </p>
               ))}
             </dl>
             <div className="mt-10">
-              <a href="#" className="text-base font-medium text-primary-600">
+              <a href="../contact" className="text-base font-medium text-primary-600">
                 Contact Us Now For a Free and Quick Price Quote
                 <span aria-hidden="true"> &rarr;</span>
               </a>
@@ -104,7 +98,7 @@ been <b>creating dream kitchens and baths for over 15 years!</b> </p>
           </div>
         </div>
       </div>
-    </div>
+
 
   )
   
